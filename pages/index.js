@@ -145,7 +145,7 @@ export default function Home() {
 
 useEffect(() => {
   async function fetchCity() {
-    fetch("http://localhost:3000/api/fetchcity")
+    fetch("/api/fetchcity")
       .then(async (res) => {
         let data = await res.json();
         // console.log("Data", data);
