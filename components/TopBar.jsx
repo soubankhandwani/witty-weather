@@ -7,7 +7,7 @@ const TopBar = () => {
                 <Image
                     alt="Logo"
                     width={70}
-                    height={70{
+                    height={70}
                     src="/static/logo.png"
                 />
             </div>
