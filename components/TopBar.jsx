@@ -4,11 +4,11 @@ const TopBar = () => {
     return (
         <div className="flex min-sm:justify-center items-center py-4 px-3 lg:py-4 lg:px-24">
             <div>
-                <img
+                <Image
                     alt="Logo"
-                    width="70"
-                    height="70"
-                    src="../public/static/logo.png"
+                    width={70}
+                    height={70{
+                    src="/static/logo.png"
                 />
             </div>
             <div className="flex items-center text-white">
