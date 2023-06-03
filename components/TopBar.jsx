@@ -8,7 +8,7 @@ const TopBar = () => {
                     alt="Logo"
                     width={70}
                     height={70}
-                    src="/public/static/logo.png"
+                    src="/public/favicon.ico"
                 />
             </div>
             <div className="flex items-center text-white">
