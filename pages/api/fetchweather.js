@@ -1,8 +1,5 @@
-import { useRouter } from "next/router";
 export default async function fetchW(req, res) {
         const router = useRouter();
-        // const param = router.query;
-        // console.log(param);
         const CITY = "q=Paris";
         const BASE_URL = "http://api.weatherapi.com/v1/current.json?";
         let query = BASE_URL + "key=" + process.env.KEY + "&" + CITY
